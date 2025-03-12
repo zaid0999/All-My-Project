@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <h1 class="zaid animate__animated animate__backInLeft">Zaid</h1>
+        <button class="menu-toggle">☰</button>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="abc">
+        <div class="abc1">
+            <h2>Hi, It's <span class="abc2">Zaid</span></h2>
+            <h3>I'm a <span class="abc2">Developer</span></h3>
+            <p>Frontend web developer specializing in creating visually appealing, user-freindly interfaces. Proficient in HTML, CSS, and JavaScript, I transform design concepts into responsive, interactive websites that provide seamless user experiences across all devices. Passionate about coding and innovation.</p>
+            <div class="button">
+                <button class="hire animate__animated animate__zoomInDown">Hire</button>
+                <button class="contact animate__animated animate__zoomInDown">Contact</button>
+            </div>
+            <div class="icon">
+                <a href="https://www.instagram.com/zaid_0444?igsh=MTZyZnowamJtMWg5Yg==" target="_blank"><img src="./instagram.png" alt=""></a>
+                <a href=""><img src="./github.png" alt=""></a>
+                <a href=""><img src="./messenger.png" alt=""></a>
+                <a href="https://t.me/@zaid0444" target="_blank"><img src="./telegram.png" alt=""></a>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="./profile.jpg" alt="">
+        </div>
+    </section>
+    <script>
+        document.querySelector(".menu-toggle").addEventListener("click", function () {
+            document.querySelector("nav ul").classList.toggle("active");
+        });
+    </script>
+</body>
+</html>

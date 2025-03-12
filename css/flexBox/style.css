@@ -1,0 +1,28 @@
+.parent{
+    height: 400px;
+    width: 410px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.child{
+    color: white;
+    background-color: darkorchid;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 23px;
+}
+
+.child1{
+    align-self: start;
+    flex-grow: 2;
+}
+.child2{
+    align-self: end;
+    flex-basis: 100px;
+}

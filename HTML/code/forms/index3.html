@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="main.py">
+        <fieldset>
+            <legend>Sign up form</legend>
+            <input type="hidden" name="class" value="10">
+            <label for="na">Name: </label><br><br>
+
+            <label for="course">Select Your Course</label>
+            <select name="course" id="course">
+                <optgroup label="ENGG">
+                    <option value="cse">CSE</option>
+                    <option value="ece">ECE</option>
+                    <option value="eee">EEE</option>
+                    <option value="mech">Mech</option>
+                </optgroup>
+                <optgroup label="DEGREE">
+                    <option value="bsc">BSc</option>
+                    <option value="bca">BCA</option>
+                    <option value="bcom">BCOM</option>
+                    <option value="bba">BBA</option>
+                <optgroup label="PG">
+                    <option value="mba">MBA</option>
+                    <option value="mca">MCA</option>
+                    <option value="mcom">MCOM</option>
+                    <option value="msc">MSC</option>
+                </optgroup>
+                </optgroup>
+            </select><br><br>
+        <input type="text" name="na" id="na"><br><br>
+
+       <p>Please Select Your State</p>
+           <select name="state" multiple>
+              <option value="mh">Maharashtra</option>
+              <option value="hr">Haryana</option>
+              <option value="br">Bihar</option>
+              <option value="hp">Himachal Pradesh</option>
+              <option value="mp">Madhya Pradesh</option>
+              <option value="jh">Jharkhand</option>
+              <option value="od">Odisha</option>
+              <option value="tg">Telangana</option>
+           </select>
+        </fieldset>
+    </form>
+</body>
+</html>

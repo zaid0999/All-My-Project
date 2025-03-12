@@ -1,0 +1,59 @@
+div{
+    height: 200px;
+    width: 100px;
+    background-color: white;
+    margin-bottom: 40px;
+    font-size: 40px ;
+
+}
+
+.static{
+    top: 200px;
+    bottom: 100px;
+    background-color: rgb(165, 75, 248);
+}
+
+
+.relative{
+    position: relative;
+    background-color: rgb(157, 242, 73);
+    left: 200px;
+    top: 80px;
+    z-index: 6;
+
+}
+
+.absolute{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    height: 125px;
+    background-color: olive;
+}
+
+
+.fixed{
+    height: 100px;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    background-color: fuchsia;
+}
+
+
+.sticky{
+    background-color: lightcoral;
+    height: 200px;
+    position: sticky;
+    top: 250px;
+
+}
+
+.zaid{
+    position: relative;
+    background-color: purple;
+    height: 150px;
+    left: 300px;
+    bottom: 150px;
+}
