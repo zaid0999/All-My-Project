@@ -51,6 +51,7 @@ nav ul li a {
 
 .abc1 h2 {
     font-size: 50px;
+    padding-bottom: 20px;
 }
 .abc1 h3 {
     font-size: 30px;
@@ -60,6 +61,7 @@ nav ul li a {
 .abc1 p {
     font-size: 18px;
     margin: 20px 0;
+    padding-top: 20px;
 }
 
 .abc2{
@@ -70,6 +72,9 @@ nav ul li a {
 .button {
     display: flex;
     gap: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
 }
 html{
     scroll-behavior: smooth;
@@ -79,6 +84,7 @@ html{
     padding: 8px 16px;
     border-radius: 20px;
     cursor: pointer;
+    margin-right: 8px;
 }
 .hire:hover, .contact:hover{
     color: #fff;
