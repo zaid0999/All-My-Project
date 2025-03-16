@@ -23,6 +23,16 @@ header {
     cursor: pointer;
 }
 
+.abc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.abc1 {
+    width: 50%;
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -37,18 +47,6 @@ nav ul li a {
     color: white;
     font-size: 18px;
 }
-
-.abc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px;
-}
-
-.abc1 {
-    width: 50%;
-}
-
 .abc1 h2 {
     font-size: 50px;
     padding-bottom: 20px;
@@ -79,7 +77,21 @@ nav ul li a {
 html{
     scroll-behavior: smooth;
 }
-
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li:hover{
+    transform: translateY(-5px);
+}
+ul li:hover a{
+    color: #00aaff;
+}
 .hire, .contact {
     padding: 8px 16px;
     border-radius: 20px;
@@ -98,6 +110,10 @@ html{
 }
 .hire:hover{
     transform: scale(1.1);
+}
+.abc1 p{
+    font-size: 20px;
+    line-height: 1.5;
 }
 .contact{
     border: 2px solid #00aaff;
