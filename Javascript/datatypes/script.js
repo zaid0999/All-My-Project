@@ -37,3 +37,22 @@ console.log(Math.round(Math.random() *10000))
 console.log(Math.pow(2,3), 2**4)
 
 
+// Strings
+
+let q=`zaid`
+console.log(q,typeof q)
+q=25;
+console.log(`the value of q is ${q}`)
+let cost=4, tax=5, quantity=10
+console.log(`The Total of buying ${quantity} apples with each cost ${cost} is ${quantity*cost} but also adds the tax of ${tax} is ${(tax/100)*(cost*quantity)}`)
+
+// string methods
+
+let str="zaId"
+console.log(str.length)
+console.log(str[0])
+console.log(str[0]+str[1])
+console.log(str.toUpperCase())
+console.log(str.toLowerCase())
+console.log(str.startsWith("za"))
+console.log(str.endsWith("za"))
