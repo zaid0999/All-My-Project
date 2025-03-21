@@ -39,7 +39,7 @@ console.log(Math.pow(2,3), 2**4)
 
 // Strings
 
-let q=`zaid`
+let q=`zaiid`
 console.log(q,typeof q)
 q=25;
 console.log(`the value of q is ${q}`)
@@ -56,3 +56,17 @@ console.log(str.toUpperCase())
 console.log(str.toLowerCase())
 console.log(str.startsWith("za"))
 console.log(str.endsWith("za"))
+console.log(str.indexOf('i'), str.lastIndexOf('i'))
+str="JS is so easy"
+console.log(str.split(''))
+console.log(str.slice(2,5))
+console.log("   zaid   ".trim())
+
+
+let k;
+console.log(k,typeof k)
+// console.log(z)
+
+
+console.log(m)
+var m=5;
